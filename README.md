@@ -1,8 +1,8 @@
 ## Steps to Run
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/RahulAnkola/Sustainability-API
+cd Sustainability-API
 
 python -m venv venv
 source venv/bin/activate          # macOS/Linux
