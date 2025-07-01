@@ -1,18 +1,22 @@
+/* Main App container - centers all content */
 .App {
   text-align: center;
 }
 
+/* Logo styling - sets size and disables pointer events */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Animation for logo - only applies if user hasn't requested reduced motion */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Header section styling - full viewport height with dark background */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +28,12 @@
   color: white;
 }
 
+/* Link styling - React blue color */
 .App-link {
   color: #61dafb;
 }
 
+/* Keyframe animation for logo rotation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
